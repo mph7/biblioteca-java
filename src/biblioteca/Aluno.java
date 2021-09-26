@@ -2,36 +2,33 @@ package biblioteca;
 
 public class Aluno {
 
-	private String matricula;
-	private String nome;
+  private String matricula;
+  private String nome;
 
-	public Aluno() {
+  public Aluno() {}
 
-	}
+  public Aluno(String matricula, String nome) {
+    this.matricula = matricula;
+    this.nome = nome;
+  }
 
-	public Aluno(String matricula, String nome) {
-		this.matricula = matricula;
-		this.nome = nome;
-	}
+  public String imprimir() {
+    return "Matricula: " + matricula + "\nNome: " + nome;
+  }
 
-	public String imprimir() {
-		return "Matricula: " + matricula + "\nNome: " + nome;
-	}
+  public String getMatricula() {
+    return matricula;
+  }
 
-	public String getMatricula() {
-		return matricula;
-	}
+  public void setMatricula(String matricula) {
+    this.matricula = matricula;
+  }
 
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
-	}
+  public String getNome() {
+    return nome;
+  }
 
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
 }
