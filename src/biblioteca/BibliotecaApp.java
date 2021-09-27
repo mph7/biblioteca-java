@@ -1,10 +1,10 @@
 package biblioteca;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-
 
 public class BibliotecaApp {
 
@@ -81,6 +81,6 @@ public class BibliotecaApp {
 	
 	read.close();
 
-	}
-	
+    read.close();
+  }
 }
