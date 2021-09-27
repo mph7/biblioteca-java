@@ -61,11 +61,7 @@ public class Emprestimo {
 		emprestimo.setDataDevolucao(null);
 		emprestimo.setDataEmprestimo(null);
 		emprestimo.setNumeroPaginas(0);
-
-		
 	}
-
-
 
 	public String imprimir() {
 		String dados = "";
